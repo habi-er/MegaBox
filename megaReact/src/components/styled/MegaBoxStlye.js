@@ -293,6 +293,8 @@ export const MegaBoxModalContainer = styled.div`
       }
       .left {
         padding: 0 20px;
+        width: 50%;
+        margin: auto;
       }
       .right {
         width: 50%;
