@@ -8,7 +8,7 @@ const MegaBoxModal = ({ movie, onClose }) => {
     <MegaBoxModalContainer className="modal">
       <div className="for-bg" onClick={onClose}></div>
       <div className="popup">
-        <div className="right">
+        <div className="left">
           <iframe width="600" height="324" src={`https://www.youtube.com/embed/${videoKey}`} frameborder="0"></iframe>
         </div>
         <div className="right">
